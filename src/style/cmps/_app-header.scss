@@ -1,0 +1,15 @@
+.app-header {
+    height: 100px;
+    .logo {
+        @media (max-width: 740px) {
+          & img{
+              height: 30px;
+          }
+            
+        }
+    }
+
+    .navbtn {
+        padding: 20px;
+    }
+}

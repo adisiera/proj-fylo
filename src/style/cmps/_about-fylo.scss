@@ -1,0 +1,108 @@
+.about-fylo {
+    @media (max-width: 740px){
+        flex-direction: column;
+    }
+    .about-img {
+        /* Style for "illustrati" */
+        @media (max-width: 740px){
+            height: 200px;
+        }
+    }
+    .txt {
+        @media (max-width: 740px){
+            width: 300px;
+        }
+        & h2 {
+            /* Style for "Stay produ" */
+            width: 506px;
+            height: 99px;
+            color: #ffffff;
+            // font-family: Raleway;
+            font-size: 40px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 50px;
+            text-align: left;
+            @media (max-width: 740px){
+                font-size: 1.2rem;
+                display: flex;
+            }
+        }
+        & p {
+            /* Style for "Never let" */
+            width: 563px;
+            height: 46px;
+            color: #ffffff;
+            // font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 24px;
+            text-align: left;
+            margin: 8px;
+            @media (max-width: 740px){
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 15px;
+                width: 280px;
+            }
+        }
+        .p-cont{
+              /* Style for "Never let" */
+              width: 563px;
+              height: 46px;
+              color: #ffffff;
+              // font-family: "Open Sans";
+              font-size: 16px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 24px;
+              text-align: left;
+              margin: 8px;
+              @media (max-width: 740px){
+                  font-size: 14px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-bottom: 15px;
+                  width: 280px;
+                  margin-top: 15px;
+              }
+        }
+    }
+    .link {
+        @media (max-width: 740px){
+            justify-content: center;
+        }
+        & p {
+            /* Style for "See how Fy" */
+            width: 146px;
+            height: 22px;
+            color: #62e0d9;
+            // font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: left;
+        }
+        .link{
+            box-shadow: 0 0 2px rgba(98, 224, 217, 0.81);
+            
+            .link-img {
+                /* Style for "Oval" */
+                width: 12px;
+                height: 12px;
+        
+                background-color: #62e0d9;
+                border-radius: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+//BASE
+@import './basics/base';
+@import './basics/helpers';
+@import './basics/typography';
+
+//VIEWS
+@import './views/home';
+
+//CMPS
+@import './cmps/hero';
+@import './cmps/description';
+@import './cmps/about-fylo';
+@import './cmps/testimonials';
+@import './cmps/get-started';
+@import './cmps/app-footer';
+@import './cmps/app-header';
+
+//SETUP
+@import './setup/mixins';
+@import './setup/variables';
